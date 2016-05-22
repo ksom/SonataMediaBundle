@@ -63,7 +63,7 @@ class FileProviderTest extends \PHPUnit_Framework_TestCase
         $this->assertSame('/uploads/media/sonatamedia/files/big/file.png', $provider->generatePublicUrl($media, 'big'));
     }
 
-    public function testHelperProperies()
+    public function testHelperProperties()
     {
         $provider = $this->getProvider();
 
